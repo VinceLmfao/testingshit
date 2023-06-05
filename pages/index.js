@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef } from 'react'
 import Head from 'next/head'
 const vidRef=useRef();
 
