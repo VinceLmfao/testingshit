@@ -1,11 +1,11 @@
 import React from 'react'
-import useRef from 'react'
+import { useRef, useEffect } from 'react'
 import Head from 'next/head'
-const vidRef=useRef();
+
 
 
 const Home = (props) => {
-  
+  const vidRef=useRef();
   useEffect(() => { vidRef.current.play(); },[]);
   return (
     <>
